@@ -1,0 +1,135 @@
+*{
+margin:0;
+padding:0;
+text-decoration:none;
+font-family:Arial;
+list-style:none;
+}
+.center{
+margin:auto;
+text-align:center;
+}
+/*Link*/
+a {
+  color: #fff;
+  text-decoration: none; /* no underline */
+}
+/*Link after it has been clicked on*/
+a:visited{
+	color: #fff;
+}
+/*percentage scaling used so it can be used on multiple platforms*/
+nav{
+	float:right;
+}
+
+nav ul li{
+	display:inline;
+}
+
+/*header/banner of each page */
+header{
+	background-color: #990000;
+	line-height:30px;
+	height:100px;
+	width:100%;
+}
+
+#aboutUs{
+	float:left;
+	width:40%;
+}
+
+h1{
+	float:left;
+	font-size:36px;
+	color: #fff;
+}
+/*id for course icon/image */
+#moduleicon{
+	width:60%;
+}
+/*id for calender icon/image */
+#calendericon{
+	width:60%;
+	
+}
+
+#login{
+	float:right;
+	font-size:20px;
+	color: #000;
+	margin-right: 5px;
+}
+
+#loginform{
+	position:absolute;
+	top:40%;
+	left:40%;
+	background-color: #990000;
+	padding:30px;
+	border-style:solid;
+	border-color: #000;
+	border-width: 3px;
+}
+
+input{margin-bottom:10px;}
+
+#moduleDetails{
+	position:absolute;
+	background-color:#B20000;
+	width: 20%;
+	height: 33%;
+	top: 40%;
+	Left: 5%;
+	
+}
+
+#news{
+	Float:right;
+	margin-top: 20px;
+	margin-right: 20px;
+	padding: 3px;
+	Border-style:solid;
+	border-color: #000;
+	border-width:3px;
+}
+
+#calender{
+	position:absolute;
+	background-color:#B20000;
+	width: 20%;
+	height: 33%;
+	top: 40%;
+	Left: 30%;
+	
+}
+
+#uploadContainer{
+	position:absolute;
+	top:50%;
+	left:50%;
+	border-style:solid;
+	border-width:3px;
+	border-color:#000;
+	padding:5px;
+}
+
+#upload{
+	color:#000;
+}
+
+
+#courselist{
+	color: #000;
+}
+
+
+Footer{
+	position:absolute;
+	font-size:12px;
+	color: #ffffff;
+	background-color: #990000;
+	width:100%;
+	bottom:0;
+} 
